@@ -1,5 +1,5 @@
-## 安装
-### 安装python 3.6+
+### 安装
+**安装python 3.6+**<br/>
 ubuntu 18已经自带python3.6了,下面是ubuntu 16.04上的安装方法.<br/>
 
     sudo add-apt-repository ppa:deadsnakes/ppa
@@ -13,7 +13,7 @@ sudo pip3 install paramiko
 ### 安装AT
 把解压缩得到的AT文件夹放在你想安装的位置，然后运行
 
-     python3 PATH_TO_AT/init.py
+ python3 PATH_TO_AT/init.py
 一路会有提示，一般回车即可。
 
 安装完成之后还不能立刻运行命令，因为AT的安装原理是把自己的目录加入到系统路径，要等到下一次重启才生效，在此之前，可以用sudo来运行(sudo路径是立刻生效的)。
