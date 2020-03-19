@@ -1,5 +1,5 @@
 ## 安装
-**安装python 3.6+**
+**安装python 3.6+**<br/>
 ubuntu 18已经自带python3.6了,下面是ubuntu 16.04上的安装方法.
 
     sudo add-apt-repository ppa:deadsnakes/ppa
@@ -7,7 +7,7 @@ ubuntu 18已经自带python3.6了,下面是ubuntu 16.04上的安装方法.
     curl https://bootstrap.pypa.io/get-pip.py | sudo python3.6
 deadsnakes这个源可以支持到python3.9，所以上面的3.6可以替换成你想安装的版本
 
-**安装paramiko库**
+**安装paramiko库**<br/>
 sudo pip3 install paramiko
 
 ### 安装AT
