@@ -1,5 +1,5 @@
 ### 安装
-**安装python 3.6+**<br/>
+*安装python 3.6+*<br/>
 ubuntu 18已经自带python3.6了,下面是ubuntu 16.04上的安装方法.<br/>
 
     sudo add-apt-repository ppa:deadsnakes/ppa
