@@ -8,10 +8,11 @@ ubuntu 18已经自带python3.6了,下面是ubuntu 16.04上的安装方法.
 deadsnakes这个源可以支持到python3.9，所以上面的3.6可以替换成你想安装的版本
 
 **安装paramiko库**<br/>
+
 sudo pip3 install paramiko
 
-### 安装AT
-把解压缩得到的AT文件夹放在你想安装的位置，然后运行
+**安装AT**<br/>
+把解压缩得到的AT文件夹放在你想安装的位置，然后运行:
 
  python3 PATH_TO_AT/init.py
 一路会有提示，一般回车即可。
@@ -20,8 +21,8 @@ sudo pip3 install paramiko
 
 在非ubuntu系统上，"添加系统路径"这一步会失败，需要你手动把AT目录加入到你的系统PATH里。
 
-————本地命令
-trace 
+## 本地命令
+*trace* <br/>
 跟踪打印一个软链接
 
 version 
